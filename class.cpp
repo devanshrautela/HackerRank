@@ -14,8 +14,6 @@ class Student
         string last_name;
         char standard;
     public:
-    Student()
-    {}
         void set_age(int age)
         {
             this->age = age;
@@ -54,7 +52,6 @@ class Student
             + "," + std::to_string(standard);
             return data;
         }
-        ~Student() {}
 };
 
 int main() {
